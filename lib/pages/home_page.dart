@@ -186,6 +186,7 @@ class HomePage extends StatelessWidget {
               ),
               // Elevated button with icon on the left side.
               GestureDetector(
+                onTap: () {},
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
