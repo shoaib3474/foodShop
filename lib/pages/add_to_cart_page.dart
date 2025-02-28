@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_shop/components/app_button.dart';
+import 'package:food_shop/pages/check_out_page.dart';
 import 'package:food_shop/styles/app_size.dart';
 
 class ShoppingCartPage extends StatelessWidget {
@@ -240,7 +241,13 @@ class ShoppingCartPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 // Checkout Button
-                AppButton(text: 'CheckOut', onPressed: () {})
+                AppButton(
+                    text: 'CheckOut',
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => CheckOutPage(),
+                      ));
+                    })
               ],
             ),
           ),
