@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:food_shop/components/app_textfield.dart';
-import 'package:food_shop/pages/card_page.dart';
 import 'package:food_shop/pages/category_page.dart';
 import 'package:food_shop/styles/app_size.dart';
 import 'package:food_shop/styles/app_text.dart';
 import 'package:food_shop/styles/assets.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import '../models/cetagory.dart';
+import '../models/category.dart';
 import '../models/products.dart';
 import 'add_to_cart_page.dart';
 
